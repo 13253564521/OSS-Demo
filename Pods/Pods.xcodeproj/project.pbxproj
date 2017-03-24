@@ -1,0 +1,1032 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093F59FBA17BBC3A1A931D85E48D03D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445269A04BFF23FF5D8ECEEAEB6A27E5 /* Foundation.framework */; };
+		0991AB5C4EC490DA5AA1DDA880ECCC61 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5603319DFF49FEEDAF9FB4932570BE7 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AE79074C4F109B50302092A58DECECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445269A04BFF23FF5D8ECEEAEB6A27E5 /* Foundation.framework */; };
+		0D5BD71681954E9101682D17F3AC9ACD /* OSSCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = B385A7B71F28C28780B7CD9ED62443FD /* OSSCompat.m */; };
+		128E4E448B66C00E162D22B179A7EB67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B618E3E56699F3714EFE2B32C3212F /* QuartzCore.framework */; };
+		15AEBE7F01BF4E78AA99F415A07BB1C8 /* OSSTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 479892EE53EB542ABAE9027C34C38A6F /* OSSTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1892138B2616C18EC7D5716557A8F015 /* OSSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CFB20AA9E31368D527604F266F76D2 /* OSSNetworking.m */; };
+		1A007EC86C27A88F5A8DE7A2F1F73E8C /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C6D4F5B33F6CE6DE27AEA65FFB7486 /* SVProgressHUD-dummy.m */; };
+		209CD123F5FB82E9E9191D5E6E5F288A /* OSSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C69BEF360173BA04B77B410FEDFA33B2 /* OSSXMLDictionary.m */; };
+		2422D3D355E14721EC09C706A74B87F4 /* OSSReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A6AB2A589A6CECD9DF56BBB6A3966E /* OSSReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0B51DDD40813057E85798949C29D8D /* OSSModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4244AABCC58543EE4DAB99FC8914A87D /* OSSModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36F3F72AF76DD0110F336FB7FB03AB79 /* OSSIPv6PrefixResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = FB56B8182D686748A456C9331A82DD9B /* OSSIPv6PrefixResolver.m */; };
+		370B8764B3708E3C3D7B03D5EE7E0463 /* OSSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CA89B2DE08E66764097B2F8FBF4F7F /* OSSUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		377AA4E19FD6FC4EAF39651E2050846D /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 621468FFBD1B769904FEFA69FC133CD7 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E5A54764397A10180BC6D892632D853 /* OSSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D203D96FF5E74A7EBFC9098FFCECA5 /* OSSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40033F6A4456F5F4B5F2E26DE5039804 /* OSSIPv6Adapter.h in Headers */ = {isa = PBXBuildFile; fileRef = F246E6F7D9B661F4678F467197A76F23 /* OSSIPv6Adapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DAEA14BADAFFBC1A1428520FE7F78C /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4273DF25AEDC54727E3AF225F3D2584D /* SVIndefiniteAnimatedView.m */; };
+		4A18E763BDF8DB2CE648DE481EDE380A /* OSSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D84AE3FF789F86D9C115140B722ACCCE /* OSSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A8EF8263C969F7658A0B587EF915783 /* OSSCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 819CC4D199AB94531E00F13345CD4275 /* OSSCancellationTokenRegistration.m */; };
+		4B9FADA9A28D10B3A950D2821547D519 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A9D6A2ACD87765255F4939FA1825C /* SVProgressHUD.m */; };
+		5DF0822AF18136A32803AE9818DD2A45 /* OSSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACEAF1C69896F73F83754C4576BA1FE /* OSSLog.m */; };
+		5F72BAAAD49EB549635B15270C550425 /* OSSHttpdns.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DB616A993E423385E5B7424FCD351D /* OSSHttpdns.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639535B82407CAFA66472BBFDF28154A /* OSSCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 521E9CECA3F5E57F0EF2C7E6401A303D /* OSSCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D53F3FD2912AD2D2190DF166AEA15B0 /* OSSClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E3670ACB336319B219EF32C83FC705 /* OSSClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71719E8B70D90563DE738627DECD082F /* OSSCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 554131863595B0A39F8178BE0CBCC5F0 /* OSSCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7216AFC52FB504FADC490F29D47F1740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445269A04BFF23FF5D8ECEEAEB6A27E5 /* Foundation.framework */; };
+		725A6FD994DBD5A00E146D66305D1F64 /* OSSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F160D84CD35F99C3489EE13863F18418 /* OSSClient.m */; };
+		73B06C4E85926517B566B8893926EB8A /* OSSExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = D48016BACE20CC7B88D8B24DA28E56E3 /* OSSExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750314B3FE313E032AC6A4348FB5C4CC /* OSSTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BDFDA901FB531509D35E3BC268CDB9 /* OSSTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE7AC50309FE2FD7834E73874EC465E /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C30FFD8604C0077CF4789784528DBCD /* SVRadialGradientLayer.m */; };
+		7D65AE5D4E3232C282879DD4353FA1B2 /* Pods-OSS对象储存Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAEACAB63126425EDFECDA4A9BDA5D7 /* Pods-OSS对象储存Demo-dummy.m */; };
+		7EDF28E3102E23E8F3825A1285052A0A /* OSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6188C1700A02B8F8ECE0945F16D3E3 /* OSSModel.m */; };
+		7FC8367A74AC5E17EDC11269FF9DAF5A /* OSSIPv6PrefixResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8975EE9E84BF52DD03693A092A2277 /* OSSIPv6PrefixResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82015872310046463090E2AE393A0E1A /* OSSBolts.h in Headers */ = {isa = PBXBuildFile; fileRef = BD61B26A2719515C6568EC378AB57E8E /* OSSBolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		845D375BD5848A5FB82392BE50AE378F /* Pods-OSS对象储存DemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E9401722C3D11D702493CC19F7295E /* Pods-OSS对象储存DemoTests-dummy.m */; };
+		89C0036D1EE5E5C6651E27DA7383FBD8 /* OSSService.h in Headers */ = {isa = PBXBuildFile; fileRef = 00131877D087029321235EBEA67FCDE0 /* OSSService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A57DC8A304782562AEE55332D04E4C4 /* OSSHttpdns.m in Sources */ = {isa = PBXBuildFile; fileRef = 972DE31AD2E4856BFDEF3015A9507CA0 /* OSSHttpdns.m */; };
+		914B9ADE1F627A9D7CBDE593300D3E7E /* OSSCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045B1777284368162FC8FA06BA7B56E /* OSSCancellationToken.m */; };
+		957B42BB7E96CF516ED52D0081BEF635 /* Pods-OSS对象储存DemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4000A4A3F87E9DC1F0B69F9A5598A58 /* Pods-OSS对象储存DemoUITests-dummy.m */; };
+		9C04C4453D76AFE0C45FC4D49A77CC2F /* OSSReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F081D3C4D63BB0EA166F20149674DF /* OSSReachabilityManager.m */; };
+		A9FE16AEEEC0F711C27A52BE156F9E16 /* OSSCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B4093BE1757D61654FFE409DC67A86F /* OSSCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF30BAF78F5477893AA6B2A87401C6BC /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA498AB2963FF7F3CC8B3ADEEE6EDD50 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0BF7964D902A9412D2C78AC8275D0D8 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F384220F7B55AE567CDFDD8B6D70FFF5 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B650B1678ED99C27379243FA99916109 /* OSSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 134C170EC28687A89DDB57C677EBED8A /* OSSTaskCompletionSource.m */; };
+		BA2558021EA30B366965C93E78D4BD55 /* OSSCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5EC0503C52402568729296DC78AA1E /* OSSCancellationTokenSource.m */; };
+		BB5FDADD49E6F434BC0E05F7E43346A4 /* OSSIPv6Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 778EDBF6DAD906ECFE3CCFE53F09D698 /* OSSIPv6Adapter.m */; };
+		BDB49E54FA237F01303BC9C240A80EB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445269A04BFF23FF5D8ECEEAEB6A27E5 /* Foundation.framework */; };
+		D7C8AF914DBD84DDBECC06A04306A9DA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894844AEFD2920A0FB2F6ADEFC733E61 /* SystemConfiguration.framework */; };
+		D83C74C7CE27C16C1D97DF9CC15E6C89 /* OSSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5238C4180D4686D35D65B64F969AD01F /* OSSUtil.m */; };
+		D94EE24DC38F2270E665A61513C3E4E7 /* OSSXMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B6322165721001C527A8E9B196659359 /* OSSXMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAB42BC7AE9EE7AA463ADE00C42075EB /* OSSDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 173BBD29A4A0C25CA4F3262E4EF74698 /* OSSDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC81414D242225407C7EAC5A31360EBF /* OSSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 645AAE756D0B6CBC020B5576534293E9 /* OSSExecutor.m */; };
+		DE8EF20895489BC82141888A4EBF10A7 /* OSSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0428E67FF95EBF33AA253E8FB28A71 /* OSSTask.m */; };
+		DFDFC391FD87799690680F7DFAD6CC5C /* OSSBolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C54D29A2AEB6557460854D758F8EE6C /* OSSBolts.m */; };
+		EC126655B8D2F505B54931C9DBE6F65D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445269A04BFF23FF5D8ECEEAEB6A27E5 /* Foundation.framework */; };
+		F16A440D5378F2AD038472F5A9344572 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1993103113298C52FEC1D088CE80A /* SVProgressAnimatedView.m */; };
+		F873C960B82C282BFD08E02B66EFCC86 /* OSSCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8EF31D7F9A9990AEF8F0E62D9C4B53 /* OSSCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9B8B9B276B39F0192B3C7E03E68FCBF /* AliyunOSSiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2DF217E276333F65DA87E38638ACDB /* AliyunOSSiOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44AE4BB574E22629F6E525A19BFE0524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94095ED187E6B7B307B2910C6AF696DD;
+			remoteInfo = SVProgressHUD;
+		};
+		7CAD61A3258E195590D78D067AE902EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0154646E4DDC76FD2097C6258C54506;
+			remoteInfo = AliyunOSSiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00131877D087029321235EBEA67FCDE0 /* OSSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSService.h; path = AliyunOSSiOS/OSSService.h; sourceTree = "<group>"; };
+		02B618E3E56699F3714EFE2B32C3212F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		05C6D4F5B33F6CE6DE27AEA65FFB7486 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		0B4093BE1757D61654FFE409DC67A86F /* OSSCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCancellationTokenRegistration.h; path = AliyunOSSiOS/OSSTask/OSSCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		0E0428E67FF95EBF33AA253E8FB28A71 /* OSSTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSTask.m; path = AliyunOSSiOS/OSSTask/OSSTask.m; sourceTree = "<group>"; };
+		134C170EC28687A89DDB57C677EBED8A /* OSSTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSTaskCompletionSource.m; path = AliyunOSSiOS/OSSTask/OSSTaskCompletionSource.m; sourceTree = "<group>"; };
+		14F081D3C4D63BB0EA166F20149674DF /* OSSReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSReachabilityManager.m; path = AliyunOSSiOS/OSSIPv6/OSSReachabilityManager.m; sourceTree = "<group>"; };
+		16CA89B2DE08E66764097B2F8FBF4F7F /* OSSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSUtil.h; path = AliyunOSSiOS/OSSUtil.h; sourceTree = "<group>"; };
+		173BBD29A4A0C25CA4F3262E4EF74698 /* OSSDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSDefine.h; path = AliyunOSSiOS/OSSDefine.h; sourceTree = "<group>"; };
+		1E9A38BB5197405C0ADE7845F2C80A6C /* libPods-OSS对象储存Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OSS对象储存Demo.a"; path = "libPods-OSS对象储存Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EDC2B0958A66B4210D2179EA2ABBF5 /* Pods-OSS对象储存DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSS对象储存DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C54D29A2AEB6557460854D758F8EE6C /* OSSBolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSBolts.m; path = AliyunOSSiOS/OSSTask/OSSBolts.m; sourceTree = "<group>"; };
+		2C8EF31D7F9A9990AEF8F0E62D9C4B53 /* OSSCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCancellationTokenSource.h; path = AliyunOSSiOS/OSSTask/OSSCancellationTokenSource.h; sourceTree = "<group>"; };
+		2F5E9DBDE470C5F276A9E50671EDC72D /* AliyunOSSiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunOSSiOS.xcconfig; sourceTree = "<group>"; };
+		310619D4651062718B69BBC8748F630C /* AliyunOSSiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunOSSiOS-prefix.pch"; sourceTree = "<group>"; };
+		4244AABCC58543EE4DAB99FC8914A87D /* OSSModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSModel.h; path = AliyunOSSiOS/OSSModel.h; sourceTree = "<group>"; };
+		4273DF25AEDC54727E3AF225F3D2584D /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		445269A04BFF23FF5D8ECEEAEB6A27E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45A52C8FDCA210F1709B9E63A1861256 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		479892EE53EB542ABAE9027C34C38A6F /* OSSTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSTask.h; path = AliyunOSSiOS/OSSTask/OSSTask.h; sourceTree = "<group>"; };
+		4C30FFD8604C0077CF4789784528DBCD /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		4D929CFA899032DD3BB253DEA37E0BDC /* Pods-OSS对象储存Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSS对象储存Demo.release.xcconfig"; sourceTree = "<group>"; };
+		516A7052FDBB2CEF5A23825A5EE085D1 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C61814C2551C01698906D96DA9BBCB /* Pods-OSS对象储存DemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OSS对象储存DemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		521E9CECA3F5E57F0EF2C7E6401A303D /* OSSCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCompat.h; path = AliyunOSSiOS/OSSCompat.h; sourceTree = "<group>"; };
+		5238C4180D4686D35D65B64F969AD01F /* OSSUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSUtil.m; path = AliyunOSSiOS/OSSUtil.m; sourceTree = "<group>"; };
+		54F65CDCCECDF3A600C9D62514A2D666 /* Pods-OSS对象储存DemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSS对象储存DemoUITests-resources.sh"; sourceTree = "<group>"; };
+		554131863595B0A39F8178BE0CBCC5F0 /* OSSCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCancellationToken.h; path = AliyunOSSiOS/OSSTask/OSSCancellationToken.h; sourceTree = "<group>"; };
+		56D203D96FF5E74A7EBFC9098FFCECA5 /* OSSNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSNetworking.h; path = AliyunOSSiOS/OSSNetworking.h; sourceTree = "<group>"; };
+		56E9401722C3D11D702493CC19F7295E /* Pods-OSS对象储存DemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSS对象储存DemoTests-dummy.m"; sourceTree = "<group>"; };
+		6045B1777284368162FC8FA06BA7B56E /* OSSCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationToken.m; path = AliyunOSSiOS/OSSTask/OSSCancellationToken.m; sourceTree = "<group>"; };
+		621468FFBD1B769904FEFA69FC133CD7 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		64568885CDD0C160B8A898E2416AF692 /* Pods-OSS对象储存DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSS对象储存DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		645AAE756D0B6CBC020B5576534293E9 /* OSSExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSExecutor.m; path = AliyunOSSiOS/OSSTask/OSSExecutor.m; sourceTree = "<group>"; };
+		68CFB20AA9E31368D527604F266F76D2 /* OSSNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSNetworking.m; path = AliyunOSSiOS/OSSNetworking.m; sourceTree = "<group>"; };
+		7048DC842AFD81D9B8050EF1CECB909C /* Pods-OSS对象储存Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OSS对象储存Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		778EDBF6DAD906ECFE3CCFE53F09D698 /* OSSIPv6Adapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSIPv6Adapter.m; path = AliyunOSSiOS/OSSIPv6/OSSIPv6Adapter.m; sourceTree = "<group>"; };
+		7B8975EE9E84BF52DD03693A092A2277 /* OSSIPv6PrefixResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSIPv6PrefixResolver.h; path = AliyunOSSiOS/OSSIPv6/OSSIPv6PrefixResolver.h; sourceTree = "<group>"; };
+		819CC4D199AB94531E00F13345CD4275 /* OSSCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationTokenRegistration.m; path = AliyunOSSiOS/OSSTask/OSSCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		88E3670ACB336319B219EF32C83FC705 /* OSSClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSClient.h; path = AliyunOSSiOS/OSSClient.h; sourceTree = "<group>"; };
+		894844AEFD2920A0FB2F6ADEFC733E61 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		8B9C088BD28B8735E32E55FA46C8D62A /* Pods-OSS对象储存DemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OSS对象储存DemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90DB616A993E423385E5B7424FCD351D /* OSSHttpdns.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSHttpdns.h; path = AliyunOSSiOS/OSSHttpdns.h; sourceTree = "<group>"; };
+		933838A8B94A8670F994AAF51C434A62 /* Pods-OSS对象储存DemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSS对象储存DemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		972DE31AD2E4856BFDEF3015A9507CA0 /* OSSHttpdns.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSHttpdns.m; path = AliyunOSSiOS/OSSHttpdns.m; sourceTree = "<group>"; };
+		9ACEAF1C69896F73F83754C4576BA1FE /* OSSLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSLog.m; path = AliyunOSSiOS/OSSLog.m; sourceTree = "<group>"; };
+		9C5EC0503C52402568729296DC78AA1E /* OSSCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationTokenSource.m; path = AliyunOSSiOS/OSSTask/OSSCancellationTokenSource.m; sourceTree = "<group>"; };
+		9FA1993103113298C52FEC1D088CE80A /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		A23A9D6A2ACD87765255F4939FA1825C /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		A47B16F87AF0C4861453B08C167DDF19 /* Pods-OSS对象储存DemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSS对象储存DemoTests-resources.sh"; sourceTree = "<group>"; };
+		A7EF4CA018FA361E987C7D4BDDFD6DB2 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		A9C7992EDF68AA2C6D3169AB46F06EAD /* libPods-OSS对象储存DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OSS对象储存DemoTests.a"; path = "libPods-OSS对象储存DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB11139963DABFD52A490EBDB731B2A /* Pods-OSS对象储存DemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OSS对象储存DemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2A865B57B42376DACEEFD3AB2F3CDD9 /* Pods-OSS对象储存Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OSS对象储存Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B385A7B71F28C28780B7CD9ED62443FD /* OSSCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCompat.m; path = AliyunOSSiOS/OSSCompat.m; sourceTree = "<group>"; };
+		B4000A4A3F87E9DC1F0B69F9A5598A58 /* Pods-OSS对象储存DemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSS对象储存DemoUITests-dummy.m"; sourceTree = "<group>"; };
+		B6322165721001C527A8E9B196659359 /* OSSXMLDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSXMLDictionary.h; path = AliyunOSSiOS/OSSXMLDictionary.h; sourceTree = "<group>"; };
+		BAF5D1112596FE81EEB53A1B7EFB78D2 /* Pods-OSS对象储存DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSS对象储存DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD38B2CE2E5C7B8663CA61007EE09475 /* libPods-OSS对象储存DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OSS对象储存DemoUITests.a"; path = "libPods-OSS对象储存DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61B26A2719515C6568EC378AB57E8E /* OSSBolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSBolts.h; path = AliyunOSSiOS/OSSTask/OSSBolts.h; sourceTree = "<group>"; };
+		BDAEACAB63126425EDFECDA4A9BDA5D7 /* Pods-OSS对象储存Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSS对象储存Demo-dummy.m"; sourceTree = "<group>"; };
+		C69BEF360173BA04B77B410FEDFA33B2 /* OSSXMLDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSXMLDictionary.m; path = AliyunOSSiOS/OSSXMLDictionary.m; sourceTree = "<group>"; };
+		C88CFB535F102CAB7E7C57083D4BED1B /* Pods-OSS对象储存Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSS对象储存Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D021798D2F426A1F71FE0DB823EF8077 /* libAliyunOSSiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAliyunOSSiOS.a; path = libAliyunOSSiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48016BACE20CC7B88D8B24DA28E56E3 /* OSSExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSExecutor.h; path = AliyunOSSiOS/OSSTask/OSSExecutor.h; sourceTree = "<group>"; };
+		D5A6AB2A589A6CECD9DF56BBB6A3966E /* OSSReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSReachabilityManager.h; path = AliyunOSSiOS/OSSIPv6/OSSReachabilityManager.h; sourceTree = "<group>"; };
+		D84AE3FF789F86D9C115140B722ACCCE /* OSSLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSLog.h; path = AliyunOSSiOS/OSSLog.h; sourceTree = "<group>"; };
+		D8AE1D645D9CF1EF2C6E13AB6EA16614 /* Pods-OSS对象储存Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSS对象储存Demo-resources.sh"; sourceTree = "<group>"; };
+		DB2DF217E276333F65DA87E38638ACDB /* AliyunOSSiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliyunOSSiOS-dummy.m"; sourceTree = "<group>"; };
+		E7584F13E9FE0571F1FEF8C9FCFADFD7 /* Pods-OSS对象储存DemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSS对象储存DemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EA498AB2963FF7F3CC8B3ADEEE6EDD50 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		EF1C4F7F9BA5AF555459E8960105FDEF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		F0BDFDA901FB531509D35E3BC268CDB9 /* OSSTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSTaskCompletionSource.h; path = AliyunOSSiOS/OSSTask/OSSTaskCompletionSource.h; sourceTree = "<group>"; };
+		F160D84CD35F99C3489EE13863F18418 /* OSSClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSClient.m; path = AliyunOSSiOS/OSSClient.m; sourceTree = "<group>"; };
+		F1B723C2F43A5E56DFFE929863BC44FD /* Pods-OSS对象储存DemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OSS对象储存DemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F246E6F7D9B661F4678F467197A76F23 /* OSSIPv6Adapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSIPv6Adapter.h; path = AliyunOSSiOS/OSSIPv6/OSSIPv6Adapter.h; sourceTree = "<group>"; };
+		F384220F7B55AE567CDFDD8B6D70FFF5 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		F5603319DFF49FEEDAF9FB4932570BE7 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		F848602F097CDD912B88C62355C03641 /* Pods-OSS对象储存DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSS对象储存DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA115D50EB1D7EBBA49C722801271746 /* Pods-OSS对象储存Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSS对象储存Demo-frameworks.sh"; sourceTree = "<group>"; };
+		FB56B8182D686748A456C9331A82DD9B /* OSSIPv6PrefixResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSIPv6PrefixResolver.m; path = AliyunOSSiOS/OSSIPv6/OSSIPv6PrefixResolver.m; sourceTree = "<group>"; };
+		FF6188C1700A02B8F8ECE0945F16D3E3 /* OSSModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSModel.m; path = AliyunOSSiOS/OSSModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A03491433DDFB85C97EA9A6D05478C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093F59FBA17BBC3A1A931D85E48D03D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D620D52CB7B4325BAD2131F6CE6AF4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB49E54FA237F01303BC9C240A80EB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3022869101F593F5E6F9AFE2CEB2C693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7216AFC52FB504FADC490F29D47F1740 /* Foundation.framework in Frameworks */,
+				128E4E448B66C00E162D22B179A7EB67 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BF2A049F569F28DBDEC3EB32AF551B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE79074C4F109B50302092A58DECECA /* Foundation.framework in Frameworks */,
+				D7C8AF914DBD84DDBECC06A04306A9DA /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B196D1BC81E8FDCE78EABEACC74A10DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC126655B8D2F505B54931C9DBE6F65D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0663B1BDD1CDF507B04AED555BDAE2EF /* AliyunOSSiOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD61B26A2719515C6568EC378AB57E8E /* OSSBolts.h */,
+				2C54D29A2AEB6557460854D758F8EE6C /* OSSBolts.m */,
+				554131863595B0A39F8178BE0CBCC5F0 /* OSSCancellationToken.h */,
+				6045B1777284368162FC8FA06BA7B56E /* OSSCancellationToken.m */,
+				0B4093BE1757D61654FFE409DC67A86F /* OSSCancellationTokenRegistration.h */,
+				819CC4D199AB94531E00F13345CD4275 /* OSSCancellationTokenRegistration.m */,
+				2C8EF31D7F9A9990AEF8F0E62D9C4B53 /* OSSCancellationTokenSource.h */,
+				9C5EC0503C52402568729296DC78AA1E /* OSSCancellationTokenSource.m */,
+				88E3670ACB336319B219EF32C83FC705 /* OSSClient.h */,
+				F160D84CD35F99C3489EE13863F18418 /* OSSClient.m */,
+				521E9CECA3F5E57F0EF2C7E6401A303D /* OSSCompat.h */,
+				B385A7B71F28C28780B7CD9ED62443FD /* OSSCompat.m */,
+				173BBD29A4A0C25CA4F3262E4EF74698 /* OSSDefine.h */,
+				D48016BACE20CC7B88D8B24DA28E56E3 /* OSSExecutor.h */,
+				645AAE756D0B6CBC020B5576534293E9 /* OSSExecutor.m */,
+				90DB616A993E423385E5B7424FCD351D /* OSSHttpdns.h */,
+				972DE31AD2E4856BFDEF3015A9507CA0 /* OSSHttpdns.m */,
+				F246E6F7D9B661F4678F467197A76F23 /* OSSIPv6Adapter.h */,
+				778EDBF6DAD906ECFE3CCFE53F09D698 /* OSSIPv6Adapter.m */,
+				7B8975EE9E84BF52DD03693A092A2277 /* OSSIPv6PrefixResolver.h */,
+				FB56B8182D686748A456C9331A82DD9B /* OSSIPv6PrefixResolver.m */,
+				D84AE3FF789F86D9C115140B722ACCCE /* OSSLog.h */,
+				9ACEAF1C69896F73F83754C4576BA1FE /* OSSLog.m */,
+				4244AABCC58543EE4DAB99FC8914A87D /* OSSModel.h */,
+				FF6188C1700A02B8F8ECE0945F16D3E3 /* OSSModel.m */,
+				56D203D96FF5E74A7EBFC9098FFCECA5 /* OSSNetworking.h */,
+				68CFB20AA9E31368D527604F266F76D2 /* OSSNetworking.m */,
+				D5A6AB2A589A6CECD9DF56BBB6A3966E /* OSSReachabilityManager.h */,
+				14F081D3C4D63BB0EA166F20149674DF /* OSSReachabilityManager.m */,
+				00131877D087029321235EBEA67FCDE0 /* OSSService.h */,
+				479892EE53EB542ABAE9027C34C38A6F /* OSSTask.h */,
+				0E0428E67FF95EBF33AA253E8FB28A71 /* OSSTask.m */,
+				F0BDFDA901FB531509D35E3BC268CDB9 /* OSSTaskCompletionSource.h */,
+				134C170EC28687A89DDB57C677EBED8A /* OSSTaskCompletionSource.m */,
+				16CA89B2DE08E66764097B2F8FBF4F7F /* OSSUtil.h */,
+				5238C4180D4686D35D65B64F969AD01F /* OSSUtil.m */,
+				B6322165721001C527A8E9B196659359 /* OSSXMLDictionary.h */,
+				C69BEF360173BA04B77B410FEDFA33B2 /* OSSXMLDictionary.m */,
+				76961F8BA0F395FD4CBA4C3CB529B140 /* Support Files */,
+			);
+			name = AliyunOSSiOS;
+			path = AliyunOSSiOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C180BB93FC8BFF94C99027DA1BB9FFC4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2382CF60FD615C46ED5D2B903D408255 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF4CA018FA361E987C7D4BDDFD6DB2 /* SVProgressHUD.xcconfig */,
+				05C6D4F5B33F6CE6DE27AEA65FFB7486 /* SVProgressHUD-dummy.m */,
+				45A52C8FDCA210F1709B9E63A1861256 /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		2A558FB51360AC94DC53583F0E0E3B31 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7F565BC58B7392810C0B72F08624376 /* Pods-OSS对象储存Demo */,
+				9681F8385A023C0E73F405D88AA7B081 /* Pods-OSS对象储存DemoTests */,
+				F1DA4310EE3C95D1D1D989F84E092CB9 /* Pods-OSS对象储存DemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33D7557DA04A18B9F56649E7C7E77C86 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EA498AB2963FF7F3CC8B3ADEEE6EDD50 /* SVIndefiniteAnimatedView.h */,
+				4273DF25AEDC54727E3AF225F3D2584D /* SVIndefiniteAnimatedView.m */,
+				F5603319DFF49FEEDAF9FB4932570BE7 /* SVProgressAnimatedView.h */,
+				9FA1993103113298C52FEC1D088CE80A /* SVProgressAnimatedView.m */,
+				621468FFBD1B769904FEFA69FC133CD7 /* SVProgressHUD.h */,
+				A23A9D6A2ACD87765255F4939FA1825C /* SVProgressHUD.m */,
+				F384220F7B55AE567CDFDD8B6D70FFF5 /* SVRadialGradientLayer.h */,
+				4C30FFD8604C0077CF4789784528DBCD /* SVRadialGradientLayer.m */,
+				89355D4AF0BD22CAECC314FA3B7F6DCD /* Resources */,
+				2382CF60FD615C46ED5D2B903D408255 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		76961F8BA0F395FD4CBA4C3CB529B140 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E9DBDE470C5F276A9E50671EDC72D /* AliyunOSSiOS.xcconfig */,
+				DB2DF217E276333F65DA87E38638ACDB /* AliyunOSSiOS-dummy.m */,
+				310619D4651062718B69BBC8748F630C /* AliyunOSSiOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AliyunOSSiOS";
+			sourceTree = "<group>";
+		};
+		78AD9EFF7CEF506A8B9D71D23D8D14D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D021798D2F426A1F71FE0DB823EF8077 /* libAliyunOSSiOS.a */,
+				1E9A38BB5197405C0ADE7845F2C80A6C /* libPods-OSS对象储存Demo.a */,
+				A9C7992EDF68AA2C6D3169AB46F06EAD /* libPods-OSS对象储存DemoTests.a */,
+				BD38B2CE2E5C7B8663CA61007EE09475 /* libPods-OSS对象储存DemoUITests.a */,
+				516A7052FDBB2CEF5A23825A5EE085D1 /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				CE754CEFADEF1173C455001D7944B16C /* Pods */,
+				78AD9EFF7CEF506A8B9D71D23D8D14D5 /* Products */,
+				2A558FB51360AC94DC53583F0E0E3B31 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89355D4AF0BD22CAECC314FA3B7F6DCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C4F7F9BA5AF555459E8960105FDEF /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9681F8385A023C0E73F405D88AA7B081 /* Pods-OSS对象储存DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C088BD28B8735E32E55FA46C8D62A /* Pods-OSS对象储存DemoTests-acknowledgements.markdown */,
+				51C61814C2551C01698906D96DA9BBCB /* Pods-OSS对象储存DemoTests-acknowledgements.plist */,
+				56E9401722C3D11D702493CC19F7295E /* Pods-OSS对象储存DemoTests-dummy.m */,
+				933838A8B94A8670F994AAF51C434A62 /* Pods-OSS对象储存DemoTests-frameworks.sh */,
+				A47B16F87AF0C4861453B08C167DDF19 /* Pods-OSS对象储存DemoTests-resources.sh */,
+				BAF5D1112596FE81EEB53A1B7EFB78D2 /* Pods-OSS对象储存DemoTests.debug.xcconfig */,
+				64568885CDD0C160B8A898E2416AF692 /* Pods-OSS对象储存DemoTests.release.xcconfig */,
+			);
+			name = "Pods-OSS对象储存DemoTests";
+			path = "Target Support Files/Pods-OSS对象储存DemoTests";
+			sourceTree = "<group>";
+		};
+		C180BB93FC8BFF94C99027DA1BB9FFC4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				445269A04BFF23FF5D8ECEEAEB6A27E5 /* Foundation.framework */,
+				02B618E3E56699F3714EFE2B32C3212F /* QuartzCore.framework */,
+				894844AEFD2920A0FB2F6ADEFC733E61 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7F565BC58B7392810C0B72F08624376 /* Pods-OSS对象储存Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B2A865B57B42376DACEEFD3AB2F3CDD9 /* Pods-OSS对象储存Demo-acknowledgements.markdown */,
+				7048DC842AFD81D9B8050EF1CECB909C /* Pods-OSS对象储存Demo-acknowledgements.plist */,
+				BDAEACAB63126425EDFECDA4A9BDA5D7 /* Pods-OSS对象储存Demo-dummy.m */,
+				FA115D50EB1D7EBBA49C722801271746 /* Pods-OSS对象储存Demo-frameworks.sh */,
+				D8AE1D645D9CF1EF2C6E13AB6EA16614 /* Pods-OSS对象储存Demo-resources.sh */,
+				C88CFB535F102CAB7E7C57083D4BED1B /* Pods-OSS对象储存Demo.debug.xcconfig */,
+				4D929CFA899032DD3BB253DEA37E0BDC /* Pods-OSS对象储存Demo.release.xcconfig */,
+			);
+			name = "Pods-OSS对象储存Demo";
+			path = "Target Support Files/Pods-OSS对象储存Demo";
+			sourceTree = "<group>";
+		};
+		CE754CEFADEF1173C455001D7944B16C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0663B1BDD1CDF507B04AED555BDAE2EF /* AliyunOSSiOS */,
+				33D7557DA04A18B9F56649E7C7E77C86 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1DA4310EE3C95D1D1D989F84E092CB9 /* Pods-OSS对象储存DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1B723C2F43A5E56DFFE929863BC44FD /* Pods-OSS对象储存DemoUITests-acknowledgements.markdown */,
+				AFB11139963DABFD52A490EBDB731B2A /* Pods-OSS对象储存DemoUITests-acknowledgements.plist */,
+				B4000A4A3F87E9DC1F0B69F9A5598A58 /* Pods-OSS对象储存DemoUITests-dummy.m */,
+				E7584F13E9FE0571F1FEF8C9FCFADFD7 /* Pods-OSS对象储存DemoUITests-frameworks.sh */,
+				54F65CDCCECDF3A600C9D62514A2D666 /* Pods-OSS对象储存DemoUITests-resources.sh */,
+				21EDC2B0958A66B4210D2179EA2ABBF5 /* Pods-OSS对象储存DemoUITests.debug.xcconfig */,
+				F848602F097CDD912B88C62355C03641 /* Pods-OSS对象储存DemoUITests.release.xcconfig */,
+			);
+			name = "Pods-OSS对象储存DemoUITests";
+			path = "Target Support Files/Pods-OSS对象储存DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EF40B644890D3F5C0D1A741628347FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF30BAF78F5477893AA6B2A87401C6BC /* SVIndefiniteAnimatedView.h in Headers */,
+				0991AB5C4EC490DA5AA1DDA880ECCC61 /* SVProgressAnimatedView.h in Headers */,
+				377AA4E19FD6FC4EAF39651E2050846D /* SVProgressHUD.h in Headers */,
+				B0BF7964D902A9412D2C78AC8275D0D8 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B089685539AF2934A04379B7079C6BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82015872310046463090E2AE393A0E1A /* OSSBolts.h in Headers */,
+				71719E8B70D90563DE738627DECD082F /* OSSCancellationToken.h in Headers */,
+				A9FE16AEEEC0F711C27A52BE156F9E16 /* OSSCancellationTokenRegistration.h in Headers */,
+				F873C960B82C282BFD08E02B66EFCC86 /* OSSCancellationTokenSource.h in Headers */,
+				6D53F3FD2912AD2D2190DF166AEA15B0 /* OSSClient.h in Headers */,
+				639535B82407CAFA66472BBFDF28154A /* OSSCompat.h in Headers */,
+				DAB42BC7AE9EE7AA463ADE00C42075EB /* OSSDefine.h in Headers */,
+				73B06C4E85926517B566B8893926EB8A /* OSSExecutor.h in Headers */,
+				5F72BAAAD49EB549635B15270C550425 /* OSSHttpdns.h in Headers */,
+				40033F6A4456F5F4B5F2E26DE5039804 /* OSSIPv6Adapter.h in Headers */,
+				7FC8367A74AC5E17EDC11269FF9DAF5A /* OSSIPv6PrefixResolver.h in Headers */,
+				4A18E763BDF8DB2CE648DE481EDE380A /* OSSLog.h in Headers */,
+				2F0B51DDD40813057E85798949C29D8D /* OSSModel.h in Headers */,
+				3E5A54764397A10180BC6D892632D853 /* OSSNetworking.h in Headers */,
+				2422D3D355E14721EC09C706A74B87F4 /* OSSReachabilityManager.h in Headers */,
+				89C0036D1EE5E5C6651E27DA7383FBD8 /* OSSService.h in Headers */,
+				15AEBE7F01BF4E78AA99F415A07BB1C8 /* OSSTask.h in Headers */,
+				750314B3FE313E032AC6A4348FB5C4CC /* OSSTaskCompletionSource.h in Headers */,
+				370B8764B3708E3C3D7B03D5EE7E0463 /* OSSUtil.h in Headers */,
+				D94EE24DC38F2270E665A61513C3E4E7 /* OSSXMLDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37C2DB2EA4B332798FD5EA508A1E9DC3 /* Pods-OSS对象储存DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9123B919EB58FC1C58C2D1233FD55A2D /* Build configuration list for PBXNativeTarget "Pods-OSS对象储存DemoUITests" */;
+			buildPhases = (
+				2BC7466DE639D28F84F502D12A602E98 /* Sources */,
+				26A03491433DDFB85C97EA9A6D05478C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OSS对象储存DemoUITests";
+			productName = "Pods-OSS对象储存DemoUITests";
+			productReference = BD38B2CE2E5C7B8663CA61007EE09475 /* libPods-OSS对象储存DemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4A65EFF959DE29D84B168161AE59CBAD /* Pods-OSS对象储存DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 766A0B5B89B9EB6612B38318DA91100F /* Build configuration list for PBXNativeTarget "Pods-OSS对象储存DemoTests" */;
+			buildPhases = (
+				754E6CF3D1EAEEC3CB46F5C579401DE6 /* Sources */,
+				2D620D52CB7B4325BAD2131F6CE6AF4A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OSS对象储存DemoTests";
+			productName = "Pods-OSS对象储存DemoTests";
+			productReference = A9C7992EDF68AA2C6D3169AB46F06EAD /* libPods-OSS对象储存DemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94095ED187E6B7B307B2910C6AF696DD /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1ECACA741DE189BB624DA9F38D065CC /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				63C0ED47CC173D796A1671D31176AD40 /* Sources */,
+				3022869101F593F5E6F9AFE2CEB2C693 /* Frameworks */,
+				1EF40B644890D3F5C0D1A741628347FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 516A7052FDBB2CEF5A23825A5EE085D1 /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C0154646E4DDC76FD2097C6258C54506 /* AliyunOSSiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C5E29E142A73F84ABCCBC29AA501C9 /* Build configuration list for PBXNativeTarget "AliyunOSSiOS" */;
+			buildPhases = (
+				350A9451CD1FF3EF63E1E233CCD7FDB3 /* Sources */,
+				98BF2A049F569F28DBDEC3EB32AF551B /* Frameworks */,
+				5B089685539AF2934A04379B7079C6BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliyunOSSiOS;
+			productName = AliyunOSSiOS;
+			productReference = D021798D2F426A1F71FE0DB823EF8077 /* libAliyunOSSiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB1DE377DE89A6CE360D3D7A567E77B9 /* Pods-OSS对象储存Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD0D9B6237506CFDAF271CFF0C5FB1E /* Build configuration list for PBXNativeTarget "Pods-OSS对象储存Demo" */;
+			buildPhases = (
+				A0B2ACC2E94836032AB12E366C5A85A4 /* Sources */,
+				B196D1BC81E8FDCE78EABEACC74A10DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B44E5C9CE28D3AB32D8C0463F5CC2CE3 /* PBXTargetDependency */,
+				513C5E453655787793B19E8F8BC36360 /* PBXTargetDependency */,
+			);
+			name = "Pods-OSS对象储存Demo";
+			productName = "Pods-OSS对象储存Demo";
+			productReference = 1E9A38BB5197405C0ADE7845F2C80A6C /* libPods-OSS对象储存Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 78AD9EFF7CEF506A8B9D71D23D8D14D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0154646E4DDC76FD2097C6258C54506 /* AliyunOSSiOS */,
+				DB1DE377DE89A6CE360D3D7A567E77B9 /* Pods-OSS对象储存Demo */,
+				4A65EFF959DE29D84B168161AE59CBAD /* Pods-OSS对象储存DemoTests */,
+				37C2DB2EA4B332798FD5EA508A1E9DC3 /* Pods-OSS对象储存DemoUITests */,
+				94095ED187E6B7B307B2910C6AF696DD /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BC7466DE639D28F84F502D12A602E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957B42BB7E96CF516ED52D0081BEF635 /* Pods-OSS对象储存DemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350A9451CD1FF3EF63E1E233CCD7FDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B8B9B276B39F0192B3C7E03E68FCBF /* AliyunOSSiOS-dummy.m in Sources */,
+				DFDFC391FD87799690680F7DFAD6CC5C /* OSSBolts.m in Sources */,
+				914B9ADE1F627A9D7CBDE593300D3E7E /* OSSCancellationToken.m in Sources */,
+				4A8EF8263C969F7658A0B587EF915783 /* OSSCancellationTokenRegistration.m in Sources */,
+				BA2558021EA30B366965C93E78D4BD55 /* OSSCancellationTokenSource.m in Sources */,
+				725A6FD994DBD5A00E146D66305D1F64 /* OSSClient.m in Sources */,
+				0D5BD71681954E9101682D17F3AC9ACD /* OSSCompat.m in Sources */,
+				DC81414D242225407C7EAC5A31360EBF /* OSSExecutor.m in Sources */,
+				8A57DC8A304782562AEE55332D04E4C4 /* OSSHttpdns.m in Sources */,
+				BB5FDADD49E6F434BC0E05F7E43346A4 /* OSSIPv6Adapter.m in Sources */,
+				36F3F72AF76DD0110F336FB7FB03AB79 /* OSSIPv6PrefixResolver.m in Sources */,
+				5DF0822AF18136A32803AE9818DD2A45 /* OSSLog.m in Sources */,
+				7EDF28E3102E23E8F3825A1285052A0A /* OSSModel.m in Sources */,
+				1892138B2616C18EC7D5716557A8F015 /* OSSNetworking.m in Sources */,
+				9C04C4453D76AFE0C45FC4D49A77CC2F /* OSSReachabilityManager.m in Sources */,
+				DE8EF20895489BC82141888A4EBF10A7 /* OSSTask.m in Sources */,
+				B650B1678ED99C27379243FA99916109 /* OSSTaskCompletionSource.m in Sources */,
+				D83C74C7CE27C16C1D97DF9CC15E6C89 /* OSSUtil.m in Sources */,
+				209CD123F5FB82E9E9191D5E6E5F288A /* OSSXMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C0ED47CC173D796A1671D31176AD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DAEA14BADAFFBC1A1428520FE7F78C /* SVIndefiniteAnimatedView.m in Sources */,
+				F16A440D5378F2AD038472F5A9344572 /* SVProgressAnimatedView.m in Sources */,
+				1A007EC86C27A88F5A8DE7A2F1F73E8C /* SVProgressHUD-dummy.m in Sources */,
+				4B9FADA9A28D10B3A950D2821547D519 /* SVProgressHUD.m in Sources */,
+				7CE7AC50309FE2FD7834E73874EC465E /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754E6CF3D1EAEEC3CB46F5C579401DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845D375BD5848A5FB82392BE50AE378F /* Pods-OSS对象储存DemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B2ACC2E94836032AB12E366C5A85A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D65AE5D4E3232C282879DD4353FA1B2 /* Pods-OSS对象储存Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		513C5E453655787793B19E8F8BC36360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 94095ED187E6B7B307B2910C6AF696DD /* SVProgressHUD */;
+			targetProxy = 44AE4BB574E22629F6E525A19BFE0524 /* PBXContainerItemProxy */;
+		};
+		B44E5C9CE28D3AB32D8C0463F5CC2CE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunOSSiOS;
+			target = C0154646E4DDC76FD2097C6258C54506 /* AliyunOSSiOS */;
+			targetProxy = 7CAD61A3258E195590D78D067AE902EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		061B12033A21E8D17B2EA8CEE13CFDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D929CFA899032DD3BB253DEA37E0BDC /* Pods-OSS对象储存Demo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0E0854C5A994D635E0DAE35333797B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF5D1112596FE81EEB53A1B7EFB78D2 /* Pods-OSS对象储存DemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2137FC13BDA34987666DB2D5C6630F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5E9DBDE470C5F276A9E50671EDC72D /* AliyunOSSiOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunOSSiOS/AliyunOSSiOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2425CBB1336E8FFCEAF8EBFB75E215E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F848602F097CDD912B88C62355C03641 /* Pods-OSS对象储存DemoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		785CA81916144554650CEFA8C71375BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64568885CDD0C160B8A898E2416AF692 /* Pods-OSS对象储存DemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		81B31AA9A9A33E2BADD4397B7ADB184B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88CFB535F102CAB7E7C57083D4BED1B /* Pods-OSS对象储存Demo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B8C566F2CD321788A878698E627CDAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5E9DBDE470C5F276A9E50671EDC72D /* AliyunOSSiOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunOSSiOS/AliyunOSSiOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DC04A25EE1F177F580FDAA49A99511E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EF4CA018FA361E987C7D4BDDFD6DB2 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E2E3726B07DE3982794E09B8F16D3332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EF4CA018FA361E987C7D4BDDFD6DB2 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FB8E4FB47436128358CB32453EEA2A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EDC2B0958A66B4210D2179EA2ABBF5 /* Pods-OSS对象储存DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD0D9B6237506CFDAF271CFF0C5FB1E /* Build configuration list for PBXNativeTarget "Pods-OSS对象储存Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B31AA9A9A33E2BADD4397B7ADB184B /* Debug */,
+				061B12033A21E8D17B2EA8CEE13CFDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		766A0B5B89B9EB6612B38318DA91100F /* Build configuration list for PBXNativeTarget "Pods-OSS对象储存DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0854C5A994D635E0DAE35333797B45 /* Debug */,
+				785CA81916144554650CEFA8C71375BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9123B919EB58FC1C58C2D1233FD55A2D /* Build configuration list for PBXNativeTarget "Pods-OSS对象储存DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8E4FB47436128358CB32453EEA2A55 /* Debug */,
+				2425CBB1336E8FFCEAF8EBFB75E215E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1ECACA741DE189BB624DA9F38D065CC /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E3726B07DE3982794E09B8F16D3332 /* Debug */,
+				DC04A25EE1F177F580FDAA49A99511E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C5E29E142A73F84ABCCBC29AA501C9 /* Build configuration list for PBXNativeTarget "AliyunOSSiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C566F2CD321788A878698E627CDAC4 /* Debug */,
+				2137FC13BDA34987666DB2D5C6630F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

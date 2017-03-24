@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <AliyunOSSiOS/OSSService.h>
 @interface AppDelegate ()
 
 @end

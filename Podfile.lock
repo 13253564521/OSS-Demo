@@ -1,0 +1,15 @@
+PODS:
+  - AliyunOSSiOS (2.5.3)
+  - SVProgressHUD (2.0.4)
+
+DEPENDENCIES:
+  - AliyunOSSiOS
+  - SVProgressHUD (~> 2.0.4)
+
+SPEC CHECKSUMS:
+  AliyunOSSiOS: 80e7617a5f4b5af50888a8946f6a744726032972
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+
+PODFILE CHECKSUM: 3211cffa50d0db56cdae9a8d5f07b07e8bef58a1
+
+COCOAPODS: 1.1.1

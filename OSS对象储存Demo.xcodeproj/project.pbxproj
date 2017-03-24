@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31934DE5A369D3C84D506ACD /* libPods-OSS对象储存DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89564C5145E98F7E3445D43A /* libPods-OSS对象储存DemoTests.a */; };
+		39036A624D23AF3D9E486781 /* libPods-OSS对象储存Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD57DB62C28399F2411F622 /* libPods-OSS对象储存Demo.a */; };
 		448281521E5AC5550088F8A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 448281511E5AC5550088F8A1 /* main.m */; };
 		448281551E5AC5550088F8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 448281541E5AC5550088F8A1 /* AppDelegate.m */; };
 		448281581E5AC5550088F8A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448281571E5AC5550088F8A1 /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		448281601E5AC5550088F8A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4482815E1E5AC5550088F8A1 /* LaunchScreen.storyboard */; };
 		4482816B1E5AC5560088F8A1 /* OSS____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4482816A1E5AC5560088F8A1 /* OSS____DemoTests.m */; };
 		448281761E5AC5560088F8A1 /* OSS____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 448281751E5AC5560088F8A1 /* OSS____DemoUITests.m */; };
+		448281851E5ACC0E0088F8A1 /* AliyunOSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 448281841E5ACC0E0088F8A1 /* AliyunOSS.m */; };
+		44A5012B1E5C0F7800576233 /* GSCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A5012A1E5C0F7800576233 /* GSCamera.m */; };
+		8B140EF30EE54C653554C82C /* libPods-OSS对象储存DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B576CEB2998D3BE28CDA1B30 /* libPods-OSS对象储存DemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,19 @@
 		448281711E5AC5560088F8A1 /* OSS对象储存DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OSS对象储存DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		448281751E5AC5560088F8A1 /* OSS____DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OSS____DemoUITests.m"; sourceTree = "<group>"; };
 		448281771E5AC5560088F8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448281831E5ACC0E0088F8A1 /* AliyunOSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunOSS.h; sourceTree = "<group>"; };
+		448281841E5ACC0E0088F8A1 /* AliyunOSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunOSS.m; sourceTree = "<group>"; };
+		44A501291E5C0F7800576233 /* GSCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSCamera.h; sourceTree = "<group>"; };
+		44A5012A1E5C0F7800576233 /* GSCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSCamera.m; sourceTree = "<group>"; };
+		4AD57DB62C28399F2411F622 /* libPods-OSS对象储存Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSS对象储存Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA9AA075B52C300E76C8840 /* Pods-OSS对象储存Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSS对象储存Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSS对象储存Demo/Pods-OSS对象储存Demo.release.xcconfig"; sourceTree = "<group>"; };
+		54257C1ED5AC8DE71C3AC450 /* Pods-OSS对象储存DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSS对象储存DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSS对象储存DemoUITests/Pods-OSS对象储存DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59D19FA834A1C365C980A3CC /* Pods-OSS对象储存DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSS对象储存DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSS对象储存DemoTests/Pods-OSS对象储存DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		89564C5145E98F7E3445D43A /* libPods-OSS对象储存DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSS对象储存DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9090FF659C777383146935C2 /* Pods-OSS对象储存DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSS对象储存DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSS对象储存DemoUITests/Pods-OSS对象储存DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3F18CFDDC62EDC45F5F1247 /* Pods-OSS对象储存Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSS对象储存Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSS对象储存Demo/Pods-OSS对象储存Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B576CEB2998D3BE28CDA1B30 /* libPods-OSS对象储存DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSS对象储存DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64D8220F35FC9FD4B729D8C /* Pods-OSS对象储存DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSS对象储存DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSS对象储存DemoTests/Pods-OSS对象储存DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39036A624D23AF3D9E486781 /* libPods-OSS对象储存Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31934DE5A369D3C84D506ACD /* libPods-OSS对象储存DemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B140EF30EE54C653554C82C /* libPods-OSS对象储存DemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DD44A7750D6AECD20A13A25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F18CFDDC62EDC45F5F1247 /* Pods-OSS对象储存Demo.debug.xcconfig */,
+				4BA9AA075B52C300E76C8840 /* Pods-OSS对象储存Demo.release.xcconfig */,
+				B64D8220F35FC9FD4B729D8C /* Pods-OSS对象储存DemoTests.debug.xcconfig */,
+				59D19FA834A1C365C980A3CC /* Pods-OSS对象储存DemoTests.release.xcconfig */,
+				54257C1ED5AC8DE71C3AC450 /* Pods-OSS对象储存DemoUITests.debug.xcconfig */,
+				9090FF659C777383146935C2 /* Pods-OSS对象储存DemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2992A57C06FD44475BCF7FF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AD57DB62C28399F2411F622 /* libPods-OSS对象储存Demo.a */,
+				89564C5145E98F7E3445D43A /* libPods-OSS对象储存DemoTests.a */,
+				B576CEB2998D3BE28CDA1B30 /* libPods-OSS对象储存DemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		448281441E5AC5550088F8A1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				448281691E5AC5560088F8A1 /* OSS对象储存DemoTests */,
 				448281741E5AC5560088F8A1 /* OSS对象储存DemoUITests */,
 				4482814E1E5AC5550088F8A1 /* Products */,
+				0DD44A7750D6AECD20A13A25 /* Pods */,
+				2992A57C06FD44475BCF7FF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +156,10 @@
 				4482815E1E5AC5550088F8A1 /* LaunchScreen.storyboard */,
 				448281611E5AC5550088F8A1 /* Info.plist */,
 				448281501E5AC5550088F8A1 /* Supporting Files */,
+				448281831E5ACC0E0088F8A1 /* AliyunOSS.h */,
+				448281841E5ACC0E0088F8A1 /* AliyunOSS.m */,
+				44A501291E5C0F7800576233 /* GSCamera.h */,
+				44A5012A1E5C0F7800576233 /* GSCamera.m */,
 			);
 			path = "OSS对象储存Demo";
 			sourceTree = "<group>";
@@ -147,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4482817A1E5AC5560088F8A1 /* Build configuration list for PBXNativeTarget "OSS对象储存Demo" */;
 			buildPhases = (
+				B89309D3AACDF6E7C06A2098 /* [CP] Check Pods Manifest.lock */,
 				448281491E5AC5550088F8A1 /* Sources */,
 				4482814A1E5AC5550088F8A1 /* Frameworks */,
 				4482814B1E5AC5550088F8A1 /* Resources */,
+				AFDDFCECAE36DABDC54FACA6 /* [CP] Embed Pods Frameworks */,
+				DFB27988C4738D5489358E03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4482817D1E5AC5560088F8A1 /* Build configuration list for PBXNativeTarget "OSS对象储存DemoTests" */;
 			buildPhases = (
+				A828454F80A1498701EE78F3 /* [CP] Check Pods Manifest.lock */,
 				448281621E5AC5560088F8A1 /* Sources */,
 				448281631E5AC5560088F8A1 /* Frameworks */,
 				448281641E5AC5560088F8A1 /* Resources */,
+				C50A246CE7A50714D841AF44 /* [CP] Embed Pods Frameworks */,
+				47A859E309CF4000A031FAE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 448281801E5AC5560088F8A1 /* Build configuration list for PBXNativeTarget "OSS对象储存DemoUITests" */;
 			buildPhases = (
+				EB7EA47246A69B2983E9A230 /* [CP] Check Pods Manifest.lock */,
 				4482816D1E5AC5560088F8A1 /* Sources */,
 				4482816E1E5AC5560088F8A1 /* Frameworks */,
 				4482816F1E5AC5560088F8A1 /* Resources */,
+				B2D92694D1084D93042C5125 /* [CP] Embed Pods Frameworks */,
+				F7484D6C7169D833913D62EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,13 +330,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47A859E309CF4000A031FAE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSS对象储存DemoTests/Pods-OSS对象储存DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A828454F80A1498701EE78F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFDDFCECAE36DABDC54FACA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSS对象储存Demo/Pods-OSS对象储存Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D92694D1084D93042C5125 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSS对象储存DemoUITests/Pods-OSS对象储存DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89309D3AACDF6E7C06A2098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C50A246CE7A50714D841AF44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSS对象储存DemoTests/Pods-OSS对象储存DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB27988C4738D5489358E03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSS对象储存Demo/Pods-OSS对象储存Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7EA47246A69B2983E9A230 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7484D6C7169D833913D62EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSS对象储存DemoUITests/Pods-OSS对象储存DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		448281491E5AC5550088F8A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				448281581E5AC5550088F8A1 /* ViewController.m in Sources */,
+				448281851E5ACC0E0088F8A1 /* AliyunOSS.m in Sources */,
 				448281551E5AC5550088F8A1 /* AppDelegate.m in Sources */,
+				44A5012B1E5C0F7800576233 /* GSCamera.m in Sources */,
 				448281521E5AC5550088F8A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +622,7 @@
 		};
 		4482817B1E5AC5560088F8A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F18CFDDC62EDC45F5F1247 /* Pods-OSS对象储存Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
@@ -435,6 +635,7 @@
 		};
 		4482817C1E5AC5560088F8A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA9AA075B52C300E76C8840 /* Pods-OSS对象储存Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
@@ -447,6 +648,7 @@
 		};
 		4482817E1E5AC5560088F8A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64D8220F35FC9FD4B729D8C /* Pods-OSS对象储存DemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
@@ -460,6 +662,7 @@
 		};
 		4482817F1E5AC5560088F8A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D19FA834A1C365C980A3CC /* Pods-OSS对象储存DemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
@@ -473,6 +676,7 @@
 		};
 		448281811E5AC5560088F8A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54257C1ED5AC8DE71C3AC450 /* Pods-OSS对象储存DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
 				INFOPLIST_FILE = "OSS对象储存DemoUITests/Info.plist";
@@ -485,6 +689,7 @@
 		};
 		448281821E5AC5560088F8A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9090FF659C777383146935C2 /* Pods-OSS对象储存DemoUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
 				INFOPLIST_FILE = "OSS对象储存DemoUITests/Info.plist";
@@ -514,6 +719,7 @@
 				4482817C1E5AC5560088F8A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4482817D1E5AC5560088F8A1 /* Build configuration list for PBXNativeTarget "OSS对象储存DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +728,7 @@
 				4482817F1E5AC5560088F8A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		448281801E5AC5560088F8A1 /* Build configuration list for PBXNativeTarget "OSS对象储存DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +737,7 @@
 				448281821E5AC5560088F8A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
